@@ -1,11 +1,7 @@
-import "../styleshets/App.css";
+import "../styleshets/App.scss";
 
 function App() {
-  return (
-    <div className="App">
-      Hola mundo
-    </div>
-  );
+  return <div className="App">hola mundo</div>;
 }
 
 export default App;
