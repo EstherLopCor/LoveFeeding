@@ -1,18 +1,23 @@
 import "../styleshets/_landing.scss";
 import girl from "../images/girl.png";
+import { Link } from "react-router-dom";
 
 function Landing() {
   return (
-    <div className="landing">
-      <h1 className="landing__tittle">LoveFeeding</h1>
-      <img
-        className="landing__img"
-        src={girl}
-        alt="Mother breastfeding her child"
-      />
-      <h2 className="landing__phrase">feeding with love</h2>
-      <button className="landing__btn"> Empezar</button>
-    </div>
+    <>
+      <article className="landing">
+        <h1 className="landing__tittle">LoveFeeding</h1>
+        <img
+          className="landing__img"
+          src={girl}
+          alt="Mother breastfeding her child"
+        />
+        <p className="landing__phrase">feeding with love</p>
+      </article>
+      <Link to="/main" className="landing__btn" title="go to main page">
+        Empezar
+      </Link>
+    </>
   );
 }
 
