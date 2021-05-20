@@ -2,7 +2,7 @@
   box-sizing: border-box;
   font-family: "Crete Round", serif;
   margin: 0px;
-  height: 100vh;
+  //height: 100vh;
 }
 .landing {
   background-color: #ede6e6;
@@ -24,19 +24,20 @@
     margin: 20px;
   }
   &__btn {
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
     background-color: #b24945;
     color: white;
     text-transform: uppercase;
     text-align: center;
-    font-weight: 600;
-    width: 129px;
-    height: 42px;
+    font-weight: 400;
+    // width: 129px;
+    // height: 42px;
     text-decoration: none;
     font-size: 1rem;
     border: none;
     border-radius: 7px;
     margin-bottom: 20px;
-
-    padding: 5px, 15px;
   }
 }
