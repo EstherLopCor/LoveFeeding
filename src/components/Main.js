@@ -1,11 +1,12 @@
 import "../styleshets/_main.scss";
-import logo from "../images/logo.jpg";
-
+import Footer from "./Footer";
+import Header from "./Header";
 function Main() {
   return (
-    <div className="main">
-      <img className="main__img" src={logo} alt="Love feeding" />
-    </div>
+    <>
+      <Header />
+      <Footer />
+    </>
   );
 }
 export default Main;

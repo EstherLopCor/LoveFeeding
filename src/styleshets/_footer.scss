@@ -1,0 +1,17 @@
+.footer {
+  text-align: center;
+  height: 50px;
+  background-color: #ede6e6;
+  padding-top: 10px;
+  &__text {
+    font-family: "Crete Round", serif;
+  }
+  &__heart {
+    color: #b24945;
+  }
+  &__link {
+    text-decoration: none;
+    color: #4a6c6b;
+    cursor: pointer;
+  }
+}
